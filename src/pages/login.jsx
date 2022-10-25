@@ -15,7 +15,7 @@ export default function Login() {
       <AuthLayout>
         <div className="flex flex-col">
           <Link href="/" aria-label="Home">
-            <Logo className="h-10 w-auto" />
+            True Blue Systems
           </Link>
           <div className="mt-20">
             <h2 className="text-lg font-semibold text-gray-900">
@@ -24,12 +24,11 @@ export default function Login() {
             <p className="mt-2 text-sm text-gray-700">
               Don’t have an account?{' '}
               <Link
-                href="/register"
+                href="/contact"
                 className="font-medium text-blue-600 hover:underline"
               >
-                Sign up
-              </Link>{' '}
-              for a free trial.
+                Get in touch
+              </Link>
             </p>
           </div>
         </div>

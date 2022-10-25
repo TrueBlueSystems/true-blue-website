@@ -20,7 +20,7 @@ const testimonials = [
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'I’m trying to get a hold of someone in support so that I can thank you for making my life so easy. Please get back to me right away.',
       author: {
         name: 'Amy Hahn',
         role: 'Director at Velocity Industries',
@@ -60,7 +60,7 @@ const testimonials = [
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        'Such an amazing company to work with. If you\'re a human with half a brain, you\'ll hire these guys.',
       author: {
         name: 'Amy Hahn',
         role: 'Director at Velocity Industries',

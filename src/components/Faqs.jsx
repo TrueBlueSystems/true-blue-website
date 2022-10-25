@@ -22,11 +22,6 @@ const faqs = [
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
-      answer:
-        'True Blue Systems is just a software application, ultimately your books are your responsibility.',
-    },
-    {
       question:
         'True Blue Systems sounds horrible but why do I still feel compelled to purchase?',
       answer:
@@ -34,7 +29,7 @@ const faqs = [
     },
     {
       question:
-        'I found other companies called True Blue Systems, are you sure you can use this name?',
+        'I found other companies called True Blue, are you sure you can use this name?',
       answer:
         'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
     },

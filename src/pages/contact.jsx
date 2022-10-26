@@ -21,69 +21,10 @@ export default function Register() {
             <h2 className="text-lg font-semibold text-gray-900">
               Get In Touch
             </h2>
-            
+            <p>Send an email to jj@truebluesystems.com</p>
           </div>
         </div>
-        <form
-          name="contact-form"
-          className="mt-10 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2"
-        >
-          <TextField
-            label="First name"
-            id="first_name"
-            name="first_name"
-            type="text"
-            autoComplete="given-name"
-            required
-          />
-          <TextField
-            label="Last name"
-            id="last_name"
-            name="last_name"
-            type="text"
-            autoComplete="family-name"
-            required
-          />
-          <TextField
-            className="col-span-full"
-            label="Email address"
-            id="email"
-            name="email"
-            type="email"
-            autoComplete="email"
-            required
-          />
-          <TextAreaField
-            className="col-span-full"
-            label="Message"
-            id="message"
-            name="message"
-            type="textarea"
-            required
-          />
-          <SelectField
-            className="col-span-full"
-            label="How did you hear about us?"
-            id="referral_source"
-            name="referral_source"
-          >
-            <option>Google search</option>
-            <option>Friend of a friend</option>
-            <option>Other</option>
-          </SelectField>
-          <div className="col-span-full">
-            <Button
-              type="submit"
-              variant="solid"
-              color="blue"
-              className="w-full"
-            >
-              <span>
-                Submit
-              </span>
-            </Button>
-          </div>
-        </form>
+        
       </AuthLayout>
     </>
   )

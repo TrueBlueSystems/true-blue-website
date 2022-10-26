@@ -21,7 +21,6 @@ export default function Document(props) {
         />
       </Head>
       <body className="flex h-full flex-col">
-        <!-- A little help for the Netlify post-processing bots -->
         <form name="contact" netlify netlify-honeypot="bot-field" hidden>
           <input type="text" name="first_name" />
           <input type="text" name="last_name" />

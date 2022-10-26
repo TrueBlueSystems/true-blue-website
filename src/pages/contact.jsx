@@ -25,9 +25,10 @@ export default function Register() {
           </div>
         </div>
         <form
-          action="#"
+          name="contact-form"
           className="mt-10 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2"
           netlify
+          method="POST"
         >
           <TextField
             label="First name"

@@ -21,14 +21,6 @@ export default function Document(props) {
         />
       </Head>
       <body className="flex h-full flex-col">
-        <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-          <input type="text" name="first_name" />
-          <input type="text" name="last_name" />
-          <input type="email" name="email" />
-          <textarea name="message"></textarea>
-          <input type="text" name="referral_source" />
-        </form>
-
         <Main />
         <NextScript />
       </body>
